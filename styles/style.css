@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+
+}
+p{
+  color: #ffffff;
+}
+h1{
+  color: #ffffff;
+  padding-left: 50px;
+}
+h2{
+  color: #ffffff;
+}
+h3{
+  color: #ffffff;
+  font-size: 30px;
+}
+img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  animation: drop 1.5s ease;
+
+}
+ 
+
+/* The header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background:linear-gradient(to right,rgb(0, 125, 150),rgb(5, 150, 200));
+    height: 70px;
+}
+
+.nav-list{
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    display: flex; 
+}
+
+.nav-list li {
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0; 
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: black;
+}
+
+/*The Body*/
+
+section .first{
+  background-color:white;
+}
+
+
+.first .picture{
+  width: 20%;
+  margin: auto;
+  padding-top: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.first .picture .sol1{
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  color: #00838f;
+}
+
+.first .picture .sol2{
+  position: relative;
+  color: #00838f;
+}
+
+.second{
+    display: flex;
+    background:linear-gradient(to right,rgb(0, 125, 150),rgb(5, 150, 200));
+    padding: 50px;
+    justify-content: space-between;
+  height: 30%;
+}
+
+.second .bold p{
+  font-size:20px ;
+}
+
+.third{
+  background-color: #ffffff;
+    height: 300px;
+}
+.third .Anal_tools{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  .third .Anal_tools .Anal_desc{
+    padding:10px;
+    width: 30%;
+    background:linear-gradient(to right,rgb(0, 125, 150),rgb(4, 6, 7));
+    box-shadow: 1px 1px 30px rgba(24, 5, 5, 0.1);
+    border-radius: 15px;
+    height: 200px;
+    transition: .3s ease-in;
+  }
+  .third .Anal_tools .Anal_desc:hover{
+    background:linear-gradient(to right,rgb(0, 125, 150),rgb(5, 150, 200));
+    box-shadow: 1px 1px 50px rgb(0 0 0 / 3%);
+    color: #111c21;
+  }
+  .third .diff{
+    color: #00838f;
+    padding-left: 30px;
+  
+  }
+
+footer{
+  background:linear-gradient(to right,rgb(0, 125, 150),rgb(5, 150, 200));
+  padding: 40px;
+  text-align: center;
+  
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #06aaf1;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.social-icons a:hover {
+  color: #11171d;
+}
+
+@keyframes drop {
+  0%{
+      opacity: 0;
+      transform:translateY(-80px);
+  }
+  100% {
+      opacity:1;
+      transform:translateY(0px);
+  }
+}
